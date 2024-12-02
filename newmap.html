@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f8ec79768bf73ab9854b42030be80be6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f8ec79768bf73ab9854b42030be80be6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f8ec79768bf73ab9854b42030be80be6 = L.map(
+                "map_f8ec79768bf73ab9854b42030be80be6",
+                {
+                    center: [38.38780784603443, 27.04460799730398],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e5d5e9bdaa33e517b7ec7666c433ce30 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e5d5e9bdaa33e517b7ec7666c433ce30.addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+            var marker_ec87e264c1e0480b36b588186a1b38bf = L.marker(
+                [38.394487, 27.047324],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_d7ce3be62c55b6b19e171fcfc7c4e80b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4d5430b6863ce015228ab56dbe6efc87 = $(`<div id="html_4d5430b6863ce015228ab56dbe6efc87" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/1.jpg" alt="BALCOVA ILCESI, BAHCELERARASI MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, BAHCELERARASI MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-001-01<br>             <em>Capacity:</em> 3,472<br>             <em>Area:</em> 8,679 m²         </div>         </div>`)[0];
+                popup_d7ce3be62c55b6b19e171fcfc7c4e80b.setContent(html_4d5430b6863ce015228ab56dbe6efc87);
+            
+        
+
+        marker_ec87e264c1e0480b36b588186a1b38bf.bindPopup(popup_d7ce3be62c55b6b19e171fcfc7c4e80b)
+        ;
+
+        
+    
+    
+            var marker_25c9ea5a7a8208860d1816ca3895ee76 = L.marker(
+                [38.39435, 27.051563],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_a1699e99aae2302db53a0e7539a459a9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d0be08135def1128c87b13f735521962 = $(`<div id="html_d0be08135def1128c87b13f735521962" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/2.jpg" alt="BALCOVA ILCESI, BAHCELERARASI MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, BAHCELERARASI MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-001-02<br>             <em>Capacity:</em> 3,127<br>             <em>Area:</em> 7,817 m²         </div>         </div>`)[0];
+                popup_a1699e99aae2302db53a0e7539a459a9.setContent(html_d0be08135def1128c87b13f735521962);
+            
+        
+
+        marker_25c9ea5a7a8208860d1816ca3895ee76.bindPopup(popup_a1699e99aae2302db53a0e7539a459a9)
+        ;
+
+        
+    
+    
+            var marker_86bf71a7f3df9b0ecfa0869f139ee3ac = L.marker(
+                [38.384288, 27.06142],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_ef45bbe016b31e28448387dff42e1625 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_88c46bc94a7f86a6ddf3c6725603ab83 = $(`<div id="html_88c46bc94a7f86a6ddf3c6725603ab83" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/3.jpg" alt="BALCOVA ILCESI, CETIN EMEC MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, CETIN EMEC MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-002-01<br>             <em>Capacity:</em> 752<br>             <em>Area:</em> 1,880 m²         </div>         </div>`)[0];
+                popup_ef45bbe016b31e28448387dff42e1625.setContent(html_88c46bc94a7f86a6ddf3c6725603ab83);
+            
+        
+
+        marker_86bf71a7f3df9b0ecfa0869f139ee3ac.bindPopup(popup_ef45bbe016b31e28448387dff42e1625)
+        ;
+
+        
+    
+    
+            var marker_09caadcfde9f2e7e690e8be7cee051ef = L.marker(
+                [38.379348, 27.059855],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_55a1d48c9d0fc9e18dc8917d21292b96 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_92ee4b34933cbbd851d8429c0003e572 = $(`<div id="html_92ee4b34933cbbd851d8429c0003e572" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/4.jpg" alt="BALCOVA ILCESI, CETIN EMEC MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, CETIN EMEC MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-002-02<br>             <em>Capacity:</em> 920<br>             <em>Area:</em> 2,300 m²         </div>         </div>`)[0];
+                popup_55a1d48c9d0fc9e18dc8917d21292b96.setContent(html_92ee4b34933cbbd851d8429c0003e572);
+            
+        
+
+        marker_09caadcfde9f2e7e690e8be7cee051ef.bindPopup(popup_55a1d48c9d0fc9e18dc8917d21292b96)
+        ;
+
+        
+    
+    
+            var marker_d5701204025e241ac6ba8ffd28a3a9ff = L.marker(
+                [38.39592, 27.060755],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_bfa659e1f8b760ccc77768ddcbec1cc2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3cb73332ee5d5689d8479463d093713e = $(`<div id="html_3cb73332ee5d5689d8479463d093713e" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/5.jpg" alt="BALCOVA ILCESI, EGITIM MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, EGITIM MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-003-01<br>             <em>Capacity:</em> 840<br>             <em>Area:</em> 2,100 m²         </div>         </div>`)[0];
+                popup_bfa659e1f8b760ccc77768ddcbec1cc2.setContent(html_3cb73332ee5d5689d8479463d093713e);
+            
+        
+
+        marker_d5701204025e241ac6ba8ffd28a3a9ff.bindPopup(popup_bfa659e1f8b760ccc77768ddcbec1cc2)
+        ;
+
+        
+    
+    
+            var marker_9f9474c5238fa7f9b1a03dfece2ea02d = L.marker(
+                [38.385291, 27.058423],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_344ce93b6635309d495515cac34e26fe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f7621e37169151934d21adc27068c947 = $(`<div id="html_f7621e37169151934d21adc27068c947" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/6.jpg" alt="BALCOVA ILCESI, FEVZI CAKMAK MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, FEVZI CAKMAK MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-004-01<br>             <em>Capacity:</em> 778<br>             <em>Area:</em> 1,946 m²         </div>         </div>`)[0];
+                popup_344ce93b6635309d495515cac34e26fe.setContent(html_f7621e37169151934d21adc27068c947);
+            
+        
+
+        marker_9f9474c5238fa7f9b1a03dfece2ea02d.bindPopup(popup_344ce93b6635309d495515cac34e26fe)
+        ;
+
+        
+    
+    
+            var marker_8e80a016ccc2bcb6f90bc1606c7c502a = L.marker(
+                [38.387731, 27.043448],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_35b3e724e51f207b609e5a0892a3223b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f52f5e4c0eb5efdaa122fc1011f1edb3 = $(`<div id="html_f52f5e4c0eb5efdaa122fc1011f1edb3" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/7.jpg" alt="BALCOVA ILCESI, FEVZI CAKMAK MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, FEVZI CAKMAK MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-004-02<br>             <em>Capacity:</em> 22,488<br>             <em>Area:</em> 56,220 m²         </div>         </div>`)[0];
+                popup_35b3e724e51f207b609e5a0892a3223b.setContent(html_f52f5e4c0eb5efdaa122fc1011f1edb3);
+            
+        
+
+        marker_8e80a016ccc2bcb6f90bc1606c7c502a.bindPopup(popup_35b3e724e51f207b609e5a0892a3223b)
+        ;
+
+        
+    
+    
+            var marker_dc8e1abaa803b537c710d49a9c6fe98e = L.marker(
+                [38.395202, 27.040386],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_173c89ae2f33bcef623841ea32309cb8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_055ab61da6a6b8264928ce800a6a14ba = $(`<div id="html_055ab61da6a6b8264928ce800a6a14ba" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/8.jpg" alt="BALCOVA ILCESI, INCIRALTI MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, INCIRALTI MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-005-01<br>             <em>Capacity:</em> 4,756<br>             <em>Area:</em> 11,889 m²         </div>         </div>`)[0];
+                popup_173c89ae2f33bcef623841ea32309cb8.setContent(html_055ab61da6a6b8264928ce800a6a14ba);
+            
+        
+
+        marker_dc8e1abaa803b537c710d49a9c6fe98e.bindPopup(popup_173c89ae2f33bcef623841ea32309cb8)
+        ;
+
+        
+    
+    
+            var marker_04e1db2aa75f53260171aef93166d9d7 = L.marker(
+                [38.389464, 27.038133],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_f2d537e91572fd1f508dba79971e3bd9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_23e864a53c49f7b994209f80ef4743a6 = $(`<div id="html_23e864a53c49f7b994209f80ef4743a6" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/9.jpg" alt="BALCOVA ILCESI, KORUTURK MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, KORUTURK MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-006-01<br>             <em>Capacity:</em> 8,452<br>             <em>Area:</em> 21,130 m²         </div>         </div>`)[0];
+                popup_f2d537e91572fd1f508dba79971e3bd9.setContent(html_23e864a53c49f7b994209f80ef4743a6);
+            
+        
+
+        marker_04e1db2aa75f53260171aef93166d9d7.bindPopup(popup_f2d537e91572fd1f508dba79971e3bd9)
+        ;
+
+        
+    
+    
+            var marker_10891f47effdc735403e656ef89ab77b = L.marker(
+                [38.392955, 27.043697],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_92082d532a7cf4aca41db62db02549ec = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_18224567ac399cfecfce91409b9d4db0 = $(`<div id="html_18224567ac399cfecfce91409b9d4db0" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/10.jpg" alt="BALCOVA ILCESI, KORUTURK MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, KORUTURK MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-006-02<br>             <em>Capacity:</em> 853<br>             <em>Area:</em> 2,132 m²         </div>         </div>`)[0];
+                popup_92082d532a7cf4aca41db62db02549ec.setContent(html_18224567ac399cfecfce91409b9d4db0);
+            
+        
+
+        marker_10891f47effdc735403e656ef89ab77b.bindPopup(popup_92082d532a7cf4aca41db62db02549ec)
+        ;
+
+        
+    
+    
+            var marker_8c7db7ffeeb3403de72a9ffd2fbd8c5e = L.marker(
+                [38.389016, 27.049772],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_ff8fd51b4da56b9ded08c7e0d182740d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_314d3c393bb569b42a3bce5e470dac27 = $(`<div id="html_314d3c393bb569b42a3bce5e470dac27" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/11.jpg" alt="BALCOVA ILCESI, ONUR MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, ONUR MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-007-01<br>             <em>Capacity:</em> 966<br>             <em>Area:</em> 2,416 m²         </div>         </div>`)[0];
+                popup_ff8fd51b4da56b9ded08c7e0d182740d.setContent(html_314d3c393bb569b42a3bce5e470dac27);
+            
+        
+
+        marker_8c7db7ffeeb3403de72a9ffd2fbd8c5e.bindPopup(popup_ff8fd51b4da56b9ded08c7e0d182740d)
+        ;
+
+        
+    
+    
+            var marker_cd62384fbbb2c6264f035ed3df7a7a9d = L.marker(
+                [38.390719, 27.057954],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_bddac0aa14f54ad95f9f64f1a0626ac1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_06202a959aa52aa9167edcd8c55971cc = $(`<div id="html_06202a959aa52aa9167edcd8c55971cc" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/12.jpg" alt="BALCOVA ILCESI, ONUR MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, ONUR MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-007-02<br>             <em>Capacity:</em> 377<br>             <em>Area:</em> 942 m²         </div>         </div>`)[0];
+                popup_bddac0aa14f54ad95f9f64f1a0626ac1.setContent(html_06202a959aa52aa9167edcd8c55971cc);
+            
+        
+
+        marker_cd62384fbbb2c6264f035ed3df7a7a9d.bindPopup(popup_bddac0aa14f54ad95f9f64f1a0626ac1)
+        ;
+
+        
+    
+    
+            var marker_7f706a722a7b47319b3aff4e3deffcf5 = L.marker(
+                [38.384196, 27.057411],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_8ce8c7bb40b7003293af52855c3add00 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_137efa9e4830cd53ec2c07951d2796d4 = $(`<div id="html_137efa9e4830cd53ec2c07951d2796d4" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/13.jpg" alt="BALCOVA ILCESI, TELEFERIK MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, TELEFERIK MAHALLESI, 1 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-008-01<br>             <em>Capacity:</em> 210<br>             <em>Area:</em> 526 m²         </div>         </div>`)[0];
+                popup_8ce8c7bb40b7003293af52855c3add00.setContent(html_137efa9e4830cd53ec2c07951d2796d4);
+            
+        
+
+        marker_7f706a722a7b47319b3aff4e3deffcf5.bindPopup(popup_8ce8c7bb40b7003293af52855c3add00)
+        ;
+
+        
+    
+    
+            var marker_4e80b8d46e600046053889b77954fef1 = L.marker(
+                [38.38188, 27.057068],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_8003bc312ccc22a23c80a95db5c1e59a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_17b2def4e23a729dfe12490d56d3e671 = $(`<div id="html_17b2def4e23a729dfe12490d56d3e671" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/14.jpg" alt="BALCOVA ILCESI, TELEFERIK MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, TELEFERIK MAHALLESI, 2 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-008-02<br>             <em>Capacity:</em> 575<br>             <em>Area:</em> 1437 m²         </div>         </div>`)[0];
+                popup_8003bc312ccc22a23c80a95db5c1e59a.setContent(html_17b2def4e23a729dfe12490d56d3e671);
+            
+        
+
+        marker_4e80b8d46e600046053889b77954fef1.bindPopup(popup_8003bc312ccc22a23c80a95db5c1e59a)
+        ;
+
+        
+    
+    
+            var marker_9f09aa33b7dc22ee2dc6a2ea7ce5efde = L.marker(
+                [38.382969, 27.054162],
+                {}
+            ).addTo(map_f8ec79768bf73ab9854b42030be80be6);
+        
+    
+        var popup_5017a8c9b1244ba327d8c8caa5e11efd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_79fd1389e2833c098aa49f53c6490043 = $(`<div id="html_79fd1389e2833c098aa49f53c6490043" style="width: 100.0%; height: 100.0%;">         <div style="text-align:center;">             <img src="pics/15.jpg" alt="BALCOVA ILCESI, TELEFERIK MAHALLESI, 3 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI" style="width:100%;max-width:300px;border-radius:10px;"><br>             <strong>BALCOVA ILCESI, TELEFERIK MAHALLESI, 3 NO'LU AFET VE ACIL DURUM TOPLANMA ALANI</strong><br>             3503-008-03<br>             <em>Capacity:</em> 1,549<br>             <em>Area:</em> 3,872 m²         </div>         </div>`)[0];
+                popup_5017a8c9b1244ba327d8c8caa5e11efd.setContent(html_79fd1389e2833c098aa49f53c6490043);
+            
+        
+
+        marker_9f09aa33b7dc22ee2dc6a2ea7ce5efde.bindPopup(popup_5017a8c9b1244ba327d8c8caa5e11efd)
+        ;
+
+        
+    
+</script>
+</html>
