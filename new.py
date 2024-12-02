@@ -44,29 +44,17 @@ if len(coordinates) != len(location_names) or len(coordinates) != len(capacities
     print("Warning: The number of coordinates, locations, capacities, areas, or codenames do not match.")
     print(f"Coordinates count: {len(coordinates)}, Location names count: {len(location_names)}, Capacity count: {len(capacities)}, Area count: {len(areas)}, Codename count: {len(codenames)}")
 
-# Ensure the pics folder exists and contains the expected images
-pics_folder = 'pics'
-if not os.path.exists(pics_folder):
-    print(f"Error: The folder '{pics_folder}' does not exist.")
-    exit()
-
-# Check if the images are present
-image_files = [f"{pics_folder}/{i}.jpg" for i in range(1, len(coordinates) + 1)]
-missing_images = [img for img in image_files if not os.path.isfile(img)]
-if missing_images:
-    print(f"Warning: The following images are missing: {', '.join(missing_images)}")
-
 # Create a map centered at the desired starting location
 if coordinates and location_names and capacities and areas and codenames:
     map_object = folium.Map(location=start_location, zoom_start=15)  # Center map at the updated start_location
 
-    # Add markers with popups showing the location name, capacity, area, codename, and photo
+    # Add markers with popups showing the location name, capacity, area, codename, and photo (URL)
     for i, (coord, location_name, capacity, area, codename) in enumerate(zip(coordinates, location_names, capacities, areas, codenames)):
-        # Create HTML content for the popup
-        image_path = f"pics/{i+1}.jpg"
+        # Create HTML content for the popup with a URL to the image
+        image_url = f"https://github.com/kutay0/balcova_emer_map/raw/main/pics/{i+1}.jpg"
         popup_content = f"""
         <div style="text-align:center;">
-            <img src="{image_path}" alt="{location_name}" style="width:100%;max-width:300px;border-radius:10px;"><br>
+            <img src="{image_url}" alt="{location_name}" style="width:100%;max-width:300px;border-radius:15px;"><br>
             <strong>{location_name}</strong><br>
             {codename}<br>
             <em>Capacity:</em> {capacity}<br>
